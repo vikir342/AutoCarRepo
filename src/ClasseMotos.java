@@ -1,4 +1,6 @@
+public class ClasseMotos extends ClasseAutomotores {
 
-public class ClasseMotos {
-
+    public ClasseMotos(String cor, String marca, String modelo, String tipo) {
+        super(cor, marca, modelo, tipo);
+    }
 }
